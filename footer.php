@@ -1,8 +1,8 @@
  <footer class="main-footer">
     <!-- To the right -->
     <div class="pull-right hidden-xs">
-      Student Management System
+      SGE - Sistema Gerenciador de Escolas
     </div>
     <!-- Default to the left -->
-    <strong>Copyright &copy; 2020.</strong> All rights reserved.
+    <strong>Copyright &copy; <?=date('Y')?>.</strong> Todos os direitos reservados.
   </footer>

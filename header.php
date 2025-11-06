@@ -3,9 +3,9 @@
     <!-- Logo -->
     <a href="./" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><b>S</b>MS</span>
+      <span class="logo-mini"><b>S</b>SGE</span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>Student</b> Management System</span>
+      <span class="logo-lg"><b>SGE</b> Gerenciador </span>
     </a>
 
     <!-- Header Navbar -->
@@ -18,13 +18,13 @@
       <div class="navbar-custom-menu">
         <ul class="nav navbar-nav">
           <!-- Messages: style can be found in dropdown.less-->
-      
+
           <!-- /.messages-menu -->
 
           <!-- Notifications Menu -->
-         
+
           <!-- Tasks Menu -->
-         
+
           <!-- User Account Menu -->
           <li class="dropdown user user-menu">
             <!-- Menu Toggle Button -->
@@ -40,23 +40,23 @@
                 <img src="dist/img/avatar5.png" class="img-circle" alt="User Image">
 
                 <p>
-                  <?php //echo $_SESSION['user']; ?>
+                  <?php //echo $_SESSION['user']; 
+                  ?>
                   <small><?php echo $_SESSION['role']; ?></small>
                 </p>
               </li>
               <!-- Menu Body -->
-             
+
               <!-- Menu Footer-->
               <li class="user-footer">
-                
+
                 <div class="pull-right">
-                  <a href="logout.php" class="btn btn-default btn-flat">Sign out</a>
+                  <a href="./logout.php" class="btn btn-default btn-flat">Sair</a>
                 </div>
               </li>
             </ul>
           </li>
           <!-- Control Sidebar Toggle Button -->
-         
         </ul>
       </div>
     </nav>

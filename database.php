@@ -1,7 +1,7 @@
 <?php
-$servername = "host";
-$username = "schoolnew";
-$password = "Ms5x8mZS__11";
+$servername = "localhost";
+$username = "root";
+$password = "";
 $dbname = "schoolnew";
 
 // Create connection
@@ -10,4 +10,3 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
-?>
